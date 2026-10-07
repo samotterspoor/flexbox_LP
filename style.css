@@ -1,4 +1,6 @@
 body {
+    display: flex;
+    flex-direction: column;
     font-family: Roboto, sans-serif;
     font-size: 18px;
     color: #E5E7EB;
@@ -150,4 +152,10 @@ img {
 
 .light-border-button {
     border: 2px solid #F9FAF8;
+}
+
+.footer {
+    display: flex;
+    justify-content: center;
+    padding: 24px 0;
 }
